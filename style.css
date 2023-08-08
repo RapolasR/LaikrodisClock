@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Kanit';
+}
+
+h1{
+    color: white;
+    margin-top:200px;
+    text-shadow: 2px 2px black;
+}
+
+div{
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    background-color: rgba(41, 139, 214, 0.3);
+    margin-top: 32vh;
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+    margin-right: 7px;
+    margin-left: 7px;
+    border-radius: 10px;
+}
+
+span{
+    font-size: 50px;
+    color: white;
+    display: block;
+    margin: 25px;
+    text-shadow: 2px 2px black;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
